@@ -61,6 +61,7 @@ kalman_filter.py     adaptive scalar Kalman filter
 build_features.py    27-feature matrices for BDD100K and KITTI
 run_experiments.py   trains everything, writes all result tables
 make_figures.py      generates the dissertation figures
+yolo_validation.py   YOLOv8m detection validation on sample frames
 v2v_simulation.py    probabilistic V2V rerouting simulation (no SUMO needed)
 data/                per-frame CSVs for both datasets (included)
 results/             outputs of run_experiments.py

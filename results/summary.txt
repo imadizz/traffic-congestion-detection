@@ -1,0 +1,46 @@
+Building BDD100K features...
+  frames: 70000, features: 27
+  train: 52500, test: 17500
+
+Training classifiers (full fusion, 27 features)...
+  GradientBoosting acc=99.36%  macroP=99.37  macroR=99.37  macroF1=99.37
+  RandomForest     acc=96.92%  macroP=97.02  macroR=97.02  macroF1=97.02
+  MLP              acc=99.50%  macroP=99.47  macroR=99.52  macroF1=99.50
+
+Ablation study (Gradient Boosting)...
+  camera_only    ( 9 feats) acc=99.51%  macroF1=99.51
+  camera_kalman  (13 feats) acc=99.46%  macroF1=99.47
+  camera_gps     (14 feats) acc=99.44%  macroF1=99.45
+  full_fusion    (27 feats) acc=99.36%  macroF1=99.37
+
+McNemar (camera-only vs full fusion): only-fusion-right=17, only-camera-right=43, p=0.0011
+
+Per-class (GB full fusion):
+  FREE_FLOW  P=99.5 R=99.8 F1=99.7 n=3156
+  MODERATE   P=99.4 R=99.6 F1=99.5 n=6065
+  HEAVY      P=99.1 R=98.8 F1=99.0 n=4322
+  GRIDLOCK   P=99.5 R=99.2 F1=99.4 n=3957
+
+Accuracy by weather (GB full fusion):
+  clear           99.5%  (test n=9341)
+  foggy          100.0%  (test n=37)
+  overcast        99.3%  (test n=2185)
+  partly cloudy   99.4%  (test n=1244)
+  rainy           98.8%  (test n=1248)
+  snowy           99.6%  (test n=1360)
+  undefined       98.8%  (test n=2085)
+
+Top 8 features (GB):
+  car                 47.0%
+  cam_score           34.2%
+  truck                8.8%
+  bus                  7.8%
+  person               0.6%
+  bike                 0.5%
+  kalman_gain          0.4%
+  rider                0.1%
+Group totals: camera=99.1%, gps=0.2%, kalman=0.6%, context=0.1%
+
+KITTI zero-shot transfer...
+  KITTI accuracy: 99.79%  (n=7481)
+  per-class recall: FREE_FLOW=100.0, MODERATE=99.7, HEAVY=98.2, GRIDLOCK=100.0

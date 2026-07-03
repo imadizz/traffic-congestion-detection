@@ -1,0 +1,5 @@
+configuration,n_features,accuracy,macro_precision,macro_recall,macro_f1
+camera_only,9,99.51,99.52,99.51,99.51
+camera_kalman,13,99.46,99.48,99.46,99.47
+camera_gps,14,99.44,99.46,99.44,99.45
+full_fusion,27,99.36,99.37,99.37,99.37

@@ -1,0 +1,8 @@
+weather,accuracy,test_frames,total_frames
+clear,99.5,9341,37412
+foggy,100.0,37,130
+overcast,99.3,2185,8784
+partly cloudy,99.4,1244,4886
+rainy,98.8,1248,5083
+snowy,99.6,1360,5571
+undefined,98.8,2085,8134
