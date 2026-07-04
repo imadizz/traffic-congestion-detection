@@ -1,0 +1,186 @@
+{
+  "pl_0.00": {
+    "packet_loss": 0.0,
+    "mean_journey_min": 38.50683313812958,
+    "std_journey_min": 0.37697218482945577,
+    "pct_saved": 18.590204781967063,
+    "n_rerouted_avg": 294,
+    "coverage_pct_avg": 58.8,
+    "individual_runs": [
+      {
+        "mean": 38.4859153242166,
+        "std": 10.146187166982163,
+        "min": 17.32200200507621,
+        "max": 71.12155078777133,
+        "n": 500,
+        "n_rerouted": 289,
+        "n_warnings_sent": 289,
+        "n_warnings_received": 289,
+        "coverage_pct": 57.8,
+        "pct_saved": 18.634428490028327
+      },
+      {
+        "mean": 38.89382871253151,
+        "std": 10.112153058188834,
+        "min": 15.83628080624295,
+        "max": 71.40426457987951,
+        "n": 500,
+        "n_rerouted": 283,
+        "n_warnings_sent": 283,
+        "n_warnings_received": 283,
+        "coverage_pct": 56.6,
+        "pct_saved": 17.772032320229364
+      },
+      {
+        "mean": 38.14075537764062,
+        "std": 10.228109877775847,
+        "min": 18.029832458805352,
+        "max": 72.19366726424738,
+        "n": 500,
+        "n_rerouted": 310,
+        "n_warnings_sent": 310,
+        "n_warnings_received": 310,
+        "coverage_pct": 62.0,
+        "pct_saved": 19.3641535356435
+      }
+    ]
+  },
+  "pl_0.20": {
+    "packet_loss": 0.2,
+    "mean_journey_min": 40.33289609434071,
+    "std_journey_min": 0.32440734043457087,
+    "pct_saved": 14.729606565875866,
+    "n_rerouted_avg": 230.66666666666666,
+    "coverage_pct_avg": 46.13333333333333,
+    "individual_runs": [
+      {
+        "mean": 40.49332445111579,
+        "std": 10.335799644531761,
+        "min": 16.742911013156448,
+        "max": 71.12155078777133,
+        "n": 500,
+        "n_rerouted": 221,
+        "n_warnings_sent": 289,
+        "n_warnings_received": 221,
+        "coverage_pct": 44.2,
+        "pct_saved": 14.390434564237227
+      },
+      {
+        "mean": 40.54583235392772,
+        "std": 10.450353336133023,
+        "min": 16.033926211913773,
+        "max": 71.40426457987951,
+        "n": 500,
+        "n_rerouted": 221,
+        "n_warnings_sent": 283,
+        "n_warnings_received": 221,
+        "coverage_pct": 44.2,
+        "pct_saved": 14.279424198884305
+      },
+      {
+        "mean": 39.95953147797863,
+        "std": 10.506144415788201,
+        "min": 18.115980495018093,
+        "max": 72.19366726424738,
+        "n": 500,
+        "n_rerouted": 250,
+        "n_warnings_sent": 310,
+        "n_warnings_received": 250,
+        "coverage_pct": 50.0,
+        "pct_saved": 15.518960934506064
+      }
+    ]
+  },
+  "pl_0.40": {
+    "packet_loss": 0.4,
+    "mean_journey_min": 42.19918003833214,
+    "std_journey_min": 0.36921343634991044,
+    "pct_saved": 10.783974548980677,
+    "n_rerouted_avg": 169,
+    "coverage_pct_avg": 33.8,
+    "individual_runs": [
+      {
+        "mean": 42.05460884312254,
+        "std": 10.00330521915352,
+        "min": 19.10530452368726,
+        "max": 71.12155078777133,
+        "n": 500,
+        "n_rerouted": 167,
+        "n_warnings_sent": 289,
+        "n_warnings_received": 167,
+        "coverage_pct": 33.4,
+        "pct_saved": 11.089621896146852
+      },
+      {
+        "mean": 42.618802559856725,
+        "std": 10.449813723654918,
+        "min": 16.144232446699615,
+        "max": 71.40426457987951,
+        "n": 500,
+        "n_rerouted": 154,
+        "n_warnings_sent": 283,
+        "n_warnings_received": 154,
+        "coverage_pct": 30.8,
+        "pct_saved": 9.896823340683452
+      },
+      {
+        "mean": 41.92412871201715,
+        "std": 10.533105347630697,
+        "min": 19.005816120916833,
+        "max": 72.19366726424738,
+        "n": 500,
+        "n_rerouted": 186,
+        "n_warnings_sent": 310,
+        "n_warnings_received": 186,
+        "coverage_pct": 37.2,
+        "pct_saved": 11.365478410111727
+      }
+    ]
+  },
+  "pl_0.60": {
+    "packet_loss": 0.6,
+    "mean_journey_min": 43.71305169361879,
+    "std_journey_min": 0.19199095667498334,
+    "pct_saved": 7.583400224907426,
+    "n_rerouted_avg": 120,
+    "coverage_pct_avg": 24.0,
+    "individual_runs": [
+      {
+        "mean": 43.49136004679368,
+        "std": 9.647232155717608,
+        "min": 17.610169147594167,
+        "max": 71.12155078777133,
+        "n": 500,
+        "n_rerouted": 122,
+        "n_warnings_sent": 289,
+        "n_warnings_received": 122,
+        "coverage_pct": 24.4,
+        "pct_saved": 8.052092924326253
+      },
+      {
+        "mean": 43.82352638234541,
+        "std": 10.15450860630258,
+        "min": 16.62182812142967,
+        "max": 71.40426457987951,
+        "n": 500,
+        "n_rerouted": 117,
+        "n_warnings_sent": 283,
+        "n_warnings_received": 117,
+        "coverage_pct": 23.4,
+        "pct_saved": 7.349838515125971
+      },
+      {
+        "mean": 43.82426865171726,
+        "std": 10.089012586224147,
+        "min": 17.475937675181747,
+        "max": 75.69952363940737,
+        "n": 500,
+        "n_rerouted": 121,
+        "n_warnings_sent": 310,
+        "n_warnings_received": 121,
+        "coverage_pct": 24.2,
+        "pct_saved": 7.348269235270054
+      }
+    ]
+  }
+}
